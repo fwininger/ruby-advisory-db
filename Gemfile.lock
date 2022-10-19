@@ -19,7 +19,7 @@ GEM
     method_source (1.0.0)
     mini_portile2 (2.8.0)
     minitest (5.15.0)
-    nokogiri (1.13.4)
+    nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pry (0.14.1)
@@ -51,10 +51,10 @@ DEPENDENCIES
   activesupport
   faraday
   kwalify
-  nokogiri
+  nokogiri (>= 1.13.9)
   pry
   rake
   rspec
 
 BUNDLED WITH
-   2.3.3
+   2.1.4
