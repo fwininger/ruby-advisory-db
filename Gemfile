@@ -7,6 +7,6 @@ gem 'rspec'
 
 group :development do
   gem 'pry'
-  gem 'nokogiri'
+  gem 'nokogiri', '>= 1.16.5'
   gem 'activesupport'
 end
